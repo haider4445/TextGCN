@@ -1,8 +1,7 @@
 #!/usr/bin/python
 #-*-coding:utf-8-*-
 import pandas as pd
-df = pd.read_csv('Annotated_data_all_na_free_test_train.csv')
-
+df = pd.read_csv('Annotated_data_nondisrupt_test_train.csv')
 
 dataset_name = 'DCmetro'
 sentences = df['incident'] #['Would you like a plain sweater or something else?​', 'Great. We have some very nice wool slacks over here. Would you like to take a look?']
