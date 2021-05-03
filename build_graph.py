@@ -15,7 +15,7 @@ from scipy.spatial.distance import cosine
 if len(sys.argv) != 2:
 	sys.exit("Use: python build_graph.py <dataset>")
 
-datasets = ['20ng', 'R8', 'R52', 'ohsumed', 'mr']
+datasets = ['DCmetro','20ng', 'R8', 'R52', 'ohsumed', 'mr']
 # build corpus
 dataset = sys.argv[1]
 

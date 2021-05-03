@@ -8,7 +8,7 @@ import sys
 if len(sys.argv) != 2:
 	sys.exit("Use: python remove_words.py <dataset>")
 
-datasets = ['20ng', 'R8', 'R52', 'ohsumed', 'mr']
+datasets = ['DCmetro','20ng', 'R8', 'R52', 'ohsumed', 'mr']
 dataset = sys.argv[1]
 
 if dataset not in datasets:
